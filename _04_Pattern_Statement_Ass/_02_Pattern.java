@@ -16,11 +16,11 @@ public class _02_Pattern {
      }
 }
 
-/*output :
-					A 
-					A B 
-					A B C 
-					A B C D 
-					A B C D E
+/*output :				
+     A 				
+     A B 				
+     A B C				
+     A B C D 
+     A B C D E
  */
  

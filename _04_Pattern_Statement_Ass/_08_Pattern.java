@@ -18,7 +18,7 @@ public class _08_Pattern {
 	}
 }
 	/*output :
-				      A 
+				  A 
 			        B B 
 			      C C C 
 			    D D D D 

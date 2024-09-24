@@ -1,0 +1,270 @@
+Question 1: What is the signature of the main method in Java?
+      Ans : a) public static void main(String[] args)  
+
+
+Question 2: Which keyword is used to indicate the entry point of a Java program? 
+     Ans : c) main 
+
+Question 3: In Java, can the main method be defined as non-static?
+     Ans : b) No
+
+Question 4: What is the purpose of the String[] args parameter in the main method?  
+     Ans : c) It specifies the number of arguments the main method can accept.
+
+Question 5: What happens if the main method is not declared as public static?
+    Ans : b) The program will run but will throw a runtime exception.
+
+Question 6: How do you run a Java program from the command line if the main method is in a    class named MyClass?  
+    Ans : b) java MyClass  
+
+Question 7: What is the return type of the main method?  
+    Ans : a) void
+
+Question 8: How can you pass command-line arguments to a Java program?  
+   Ans : . c) By using the args keyword in the program.
+
+
+Question 9: Can a Java program have multiple main methods?  
+   Ans : b) No, a Java program can have only one main method.
+
+
+Question 10: Which of the following is the correct way to declare the main method with arguments in Java?  
+   Ans : a) public static void main(String args[]) 
+
+Question 11: Which of the following is NOT a valid Java variable name? 
+   Ans : c) my-variable 
+
+Question 12: What is the scope of a local variable in Java? 
+   Ans : b) It is accessible only within the method or block where it is declared.
+
+
+Question 13: Which of the following data types is used to store a single character in Java?
+   Ans : b) char 
+
+
+Question 14: What is the default value of an instance variable (non-static) in Java if it is not explicitly initialized?
+  Ans : b) null 
+
+Question 15: Which access modifier allows a variable to be accessed from any class in the same package?
+  Ans : a) public
+
+
+ Question 16: What is the purpose of the final keyword when applied to a variable in Java?  
+     Ans : a) It indicates that the variable cannot be modified after initialization. 
+
+
+Question 17: Which of the following is NOT a valid way to declare and initialize a constant variable in Java?
+  Ans : c) const PI = 3.14159;
+
+Question 18: What is the range of values that can be stored in a byte variable in Java?
+   Ans : a) -128 to 127
+
+Question 1 9: Which keyword is used to declare a constant in Java? 
+   Ans : c) final 
+
+
+Question 20: What is the purpose of the static keyword when applied to a variable in Java? 
+   Ans : b) It makes the variable accessible only within the same method. 
+
+
+Question 21: Which Java statement is used to control the flow of a program based on a condition?  
+   Ans : a) switch 
+
+Question 22: In Java, what is the purpose of the else statement in an if-else construct? 
+   Ans : c) To specify the action to be executed if the if condition is false. 
+
+Question 23: Which of the following loop constructs is designed for situations where the loop body should always execute at least once?  
+   Ans : c) do-while
+
+Question 24: In a switch statement in Java, what is the purpose of the break statement?
+  Ans : b) To exit the switch statement and continue with the code after the switch. 
+
+ 
+Question 25: What is the role of the break statement in a loop in Java? 
+   Ans : b) It exits the loop and continues with the code after the loop. 
+
+
+
+Question 26: What is the output of the following code snippet? 
+int x = 5; if (x > 3) 
+{ 
+System.out.println("x is greater than 3"); 
+}
+ else  
+{ 
+System.out.println("x is not greater than 3");
+ }  
+
+Ans :a) "x is greater than 3" 
+
+
+Question 27: Which loop construct is best suited for situations where the number of iterations is known in advance? 
+ Ans :  b) for 
+
+Question 28: In a for loop in Java, where is the initialization statement typically placed?  
+  Ans : a) At the beginning of the loop body.  
+
+
+Question 29: What is the output of the following code snippet? 
+int i = 0; while (i < 5) 
+
+{
+ System.out.print(i + " "); i++; 
+} 
+
+Ans : a) 0 1 2 3 4 
+
+
+Question 30: In Java, what does the continue statement do in a loop?
+  ANs : b) Skips the current iteration and continues with the next iteration of the loop
+
+
+Question 31: In Java, which keyword is used to indicate inheritance between classes? 
+    Ans : c) extends
+
+
+Question 32: Which type of inheritance allows a class to inherit from multiple classes in Java?  
+ Ans : b) Multiple inheritance 
+
+Question 33: In Java, which keyword is used to prevent a class from being inherited by other classes?
+  Ans : b) final  
+
+Question 34: What is the primary purpose of the super keyword in Java?  
+  Ans : a) To call the superclass constructor. 
+
+Question 35: In Java, which class serves as the ultimate superclass for all classes, directly or indirectly?  
+Ans : b) java.lang.Class 
+
+Question 36: Which of the following statements is true regarding method overriding in Java?  
+  Ans : d) A subclass can override a constructor from its superclass. 
+
+
+Question 37: In Java, what is the concept of method hiding?
+ Ans : b) It refers to the ability of a subclass to hide methods of its superclass.
+  
+
+Question 38: Which access modifier allows a subclass to access members of its superclass in Java?
+ Ans : c) public 
+ 
+Question 39: In Java, which keyword is used to call a constructor of the superclass from a subclass constructor?
+Ans : c) super
+
+
+Question 40: What is the term for a class that cannot be instantiated and is used solely as a base for other classes in Java?  
+ANs : b) Final class  
+
+Question 41: What is polymorphism in Java?
+  Ans : c) The ability of a class to have multiple methods with the same name but different parameters 
+
+Question 42: Which type of polymorphism is achieved through method overriding?  
+ Ans : d) Dynamic polymorphism
+
+Question 43: In Java, what is method overloading? 
+  Ans : b) Defining multiple methods with the same name but different parameters in a class 
+
+Question 44: What is the return type considered when determining method overloading in Java?  
+Ans : b) It must be the same for all overloaded methods.
+
+Question 45: Which keyword is used to indicate that a method is being overridden in a subclass?
+ Ans : d) @Override
+
+Question 46: In Java, which method is called when an object is created using the new keyword?
+  Ans : a) constructor
+
+Question 47: What is the benefit of using polymorphism in Java?  
+  Ans : d) It prevents method overriding.
+
+Question 48: Which type of polymorphism is achieved through method overloading?  
+  Ans : c) Static polymorphism 
+
+Question 49: In Java, can a subclass override a method with a lower access level than the superclass? 
+  Ans : a) Yes, as long as the subclass is in the same package as the superclass.
+
+
+Question 50: What is the term for a reference variable that can refer to objects of multiple classes?  
+ Ans : d) Class variable
+
+
+Question 51: What is abstraction in Java?  
+  Ans : b) The process of hiding the implementation details and showing only the necessary features of an object 
+
+Question 52: Which keyword is used to declare an abstract class in Java?  
+  Ans : a) abstract
+
+Question 53: Can an abstract class have concrete (non-abstract) methods? 
+  Ans : a) Yes, it can have both abstract and concrete methods.
+
+Question 54: What is the purpose of an abstract method in an abstract class?
+  Ans : b) To declare a method without providing its implementation. 
+
+Question 55: In Java, can an abstract class be instantiated (i.e., an object of the abstract class be created)?
+Ans : b) No, an abstract class cannot be instantiated; it can only be used as a base class for other classes.  
+
+
+Question 56: What is the purpose of the abstract keyword when applied to a method in Java?  
+  Ans : d) It indicates that the method is abstract and must be overridden in a subclass.
+
+
+Question 57: Which of the following is NOT a valid use of abstraction in Java? 
+ Ans : b) Implementing interfaces to provide a set of methods that must be defined by implementing classes 
+
+Question 58: Can a concrete (non-abstract) class inherit from an abstract class in Java?
+   Ans : a) Yes, but the concrete class must implement all abstract methods of the abstract class.
+
+Question 59: In Java, what is the term for a class that inherits from an abstract class and provides concrete implementations for all its abstract methods?
+ Ans : b) Subclass  
+
+Question 60: What is the relationship between an interface and abstraction in Java? 
+   Ans: a) An interface is a type of abstraction that defines a contract for methods. 
+
+Question 61: What is encapsulation in Java?  
+ Ans :c) The process of creating multiple objects from a class. 
+
+ 
+Question 62: Which access modifiers are used in Java to control access to class members (fields and methods)? 
+ Ans : c) static and abstract  
+
+
+Question 63: In Java, which access modifier allows a class member to be accessed from anywhere, both within and outside the class?
+Ans :  a) public 
+
+
+
+Question 64: What is the purpose of using private access modifier for a class member in Java?
+Ans : a) To allow access to the member only within the same class.
+
+ 
+Question 65: Which of the following is true regarding encapsulation in Java?
+  Ans : b) Encapsulation promotes data hiding and restricted access to class members. 
+
+Question 66: In Java, what is the purpose of providing public getter and setter methods forprivate fields? 
+Ans: c) To provide controlled access to the fields and enforce data validation.  
+
+
+Question 67: Which of the following is an advantage of encapsulation in Java?  
+  Ans: d) It protects the integrity of data and allows controlled access.
+
+
+Question 68: In Java, which keyword is used to declare a private class member?
+ Ans: a) private 
+
+
+Question 69: Which of the following statements is true regarding encapsulation? 
+  Ans: a) Encapsulation is only applicable to public class members. 
+
+
+Question 70: In Java, can encapsulation be applied to fields without providing getter or setter methods?
+ Ans : b) No, getter and setter methods are mandatory for encapsulation. 
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,359 @@
+1. Write a program to copy the elements of one array into another array
+public class Demo {
+    public static void main(String[]args){
+        int[] arr1 = {1,3,5,7,8,9};
+        int len = arr1.length;
+        int[]arr2 = new int[len];
+        for(int i=0;i<len;i++){
+          arr2[i] = arr1[i];
+        }
+        System.out.print("copy array : ");
+        for(int x : arr2){
+            System.out.print(x+" ");
+        }
+    }
+}
+
+
+Q2. Write a program to array elements print all Even number 
+
+public class Demo {
+    public static void main(String[]args){
+        int[] arr = {1,2,3,4,5,6,7,8,9};
+        System.out.println("even numerr : ");
+        for(int i=0;i<arr.length;i++){
+            if(arr[i] % 2 == 0){
+                System.out.print(arr[i]+" ");
+            }
+        }
+    }
+}
+
+output :
+even numerr : 2 4 6 8 
+
+
+3. Write a program to array elements print all Odd number 
+
+public class Demo {
+    public static void main(String[]args){
+        int[] arr = {1,2,3,4,5,6,7,8,9};
+        System.out.print("odd numerr : ");
+        for(int i=0;i<arr.length;i++){
+            if(arr[i] % 2 != 0){
+                System.out.print(arr[i]+" ");
+            }
+        }
+    }
+}
+
+
+Q4. Write a program to search an element in an array 
+
+public class Demo {
+    public static void main(String[]args){
+        int[] arr = {10,12,13,15,50,16,17};
+       int target = 50;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==target) {
+                System.out.print(target +" is present into array");
+                break;
+            }
+        }
+    }
+}
+
+output : 50 is present into array
+
+
+5. Write a program to array elements to print sum of Negative Numbers
+
+public class Demo {
+    public static void main(String[]args){
+        int[] arr = {11,17,-20,16,-10,18,-12,30};
+        int leng = arr.length;
+        int sum = 0;
+        for(int x=0;x<leng;x++){
+            if(arr[x]<0){
+                sum = sum+arr[x];
+            }
+        }
+        System.out.println("sum of all negative number : "+sum);
+    }
+}
+
+output : 
+sum of all negative number : -42
+
+
+6. Write a program to Print Unique Elements in Array 
+
+public class Demo {
+    public static void main(String[]args){
+        int[] arr = {1,3,2,4,4,5,6,7,8,8};
+        System.out.print("Unique elements are : ");
+        for(int k=0;k<arr.length;k++){
+            if(arr[k]!= arr[k+1]){
+                System.out.print(arr[k]+" ");
+            }
+        }
+
+    }
+}
+output : Unique elements are : 1 3 2 4 5 6 7
+
+
+7. Write a program to array elements print all Positive number
+
+public class Demo {
+    public static void main(String[]args){
+        int[] arr = {1,2,-3,10,1-4,5,-11,6,7,8,-9};
+        System.out.print("All positive number : ");
+        for(int p=0;p<arr.length;p++){
+            if(arr[p]>0){
+                System.out.print(arr[p]+" ");
+            }
+        }
+
+    }
+}
+
+output : 
+All positive number : 1 2 10 5 6 7 8
+
+
+8. Write a program to calculate the average value of array elements
+
+public class Demo {
+    public static void main(String[]args){
+        int[] arr = {10,20,30,19,14,28,37,16};
+        int leng = arr.length;
+        int sum = 0;
+        for(int x=0;x<leng;x++){
+           sum = sum+arr[x];
+        }
+        int avg = sum/leng;;
+        System.out.println("Avarage of array is : "+avg);
+    }
+}
+Avarage of array is : 21
+
+
+9. Write a program in to find the sum of all elements of the array 
+
+public class Demo {
+    public static void main(String[]args){
+        int[] arr = {16,19,20,30,15,18,11,12};
+        int leng = arr.length;
+        int sum = 0;
+        for(int a=0;a<leng;a++){
+           sum = sum+arr[a];
+        }
+
+        System.out.println("Sum all Array Elements is : "+sum);
+    }
+}
+output : 
+Sum all Array Elements is : 141
+
+
+10. Write a program to merge two arrays elements to store third array
+
+
+
+
+
+
+
+
+
+
+11. Write a program to get the canonical representation of the string object 
+
+public class Demo {
+    public static void main(String[]args){
+       String str1 = "ombehare";
+       String str2 = "behare";
+       boolean b = str1==str2;
+        System.out.println(str1 + " == "+str2+" ? "+ b);
+    }
+}
+output : 
+ombehare == behare ? false
+
+
+12. Write a program to check whether a given string ends with the contents of 
+another string
+
+public class Demo {
+    public static void main(String[]args){
+       String str1 = "ombehare";
+       String str2 = "behare";
+       boolean bool = str1.endsWith(str2);
+        System.out.println(bool);
+    }
+}
+
+output: true 
+
+
+
+13. Write a program to check whether two String objects contain the same data 
+
+public class Demo {
+    public static void main(String[]args){
+       String s1 = "java progaraming";
+       String s2 = "python programing";
+       boolean bool = s1.contains(s2);
+        System.out.println(bool);
+    }
+}
+
+output : false
+
+
+
+14. Write a program to count a number of Unicode code points in the specified 
+text range of a String
+
+public class Demo {
+    public static void main(String[]args){
+       String str = "java progaraming";
+       int count = str.codePointCount(0,9);
+        System.out.println("code point count is : "+count);
+    }
+}
+output : 
+     code point count is : 9
+
+
+15. Write a program to compare a given string to the specified character 
+sequence
+
+public class Demo {
+    public static void main(String[]args){
+       String str = "I am programer";
+       boolean b = str.contains("am");
+        System.out.println(b);
+
+    }
+}
+
+output : true
+
+
+16. Write a program to concatenate Two strings 
+
+public class Demo {
+    public static void main(String[]args){
+       String name  = "Om";
+       String lname = "Behare";
+      String fname = name.concat(lname);
+        System.out.println(fname);
+
+    }
+}
+output : OmBehare
+
+
+17. Write a program to Count Number of Uppercase and Lowercase letters
+ 
+public class Demo {
+    public static void main(String[]args){
+       String str  = "I Am Java Progaramer";
+       int countUppercase = 0;
+       int countLowecase = 0;
+       char[] ch = str.toCharArray();
+       for(int i=0;i<str.length();i++){
+           if(ch[i]>'A' && ch[i]<'Z'){
+              countUppercase ++;
+           }
+           if(ch[i]>'a'&& ch[i]<'z'){
+               countLowecase++;
+           }
+
+       }
+        System.out.println("Uppercase count is :"+countUppercase);
+        System.out.println("Lowecase count is :"+ countLowecase);
+
+    }
+}
+
+output : 
+  Uppercase count is :3
+  Lowecase count is :9
+
+
+18. Write a program to create a character array containing the contents of a 
+string
+
+public class Demo {
+    public static void main(String[]args){
+       String str  = " Java Progaramer";
+       char[] ch = str.toCharArray();
+       for(int i=0;i<ch.length;i++){
+           System.out.print(ch[i]+" ");
+       }
+
+    }
+}
+
+output : 
+  J a v a   P r o g a r a m e r 
+
+
+19. Write a program to find maximum between two string
+
+public class Demo {
+    public static void main(String[]args){
+       String str1  = " Java Progaramer";
+       String str2  = "python programer";
+       int n = str1.compareTo(str2);
+       if(n>0){
+           System.out.println(str1+" is greter");
+       }
+       else{
+           System.out.println(str2+" is greter");
+       }
+       
+    }
+}
+output : 
+ python programer is greter
+
+20. Write a program to create a new string repeating every character twice of a 
+given string
+
+public class Demo {
+    public static void main(String[]args){
+       String str1  = " JavaProgaramer";
+       String repeat = str1.repeat(2);
+        System.out.println(repeat);
+        
+    }
+}
+output : 
+     JavaProgaramer JavaProgaramer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
